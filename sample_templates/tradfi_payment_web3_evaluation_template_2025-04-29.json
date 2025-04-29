@@ -1,0 +1,165 @@
+{
+  "id": "d0dfe6cd-5101-4a02-a8a2-36367bf1ccbc",
+  "name": "TradFi Payment Web3 Evaluation",
+  "description": "Customized evaluation framework for Web2 payment companies transitioning to blockchain and Web3 integration.",
+  "author": "TradFi Metrics Guide",
+  "createdAt": "2025-03-28T13:36:01.226Z",
+  "updatedAt": "2025-03-28T13:36:01.226Z",
+  "isBuiltIn": false,
+  "categories": [
+    {
+      "id": "readiness",
+      "name": "TradFi Readiness Metrics",
+      "description": "Foundational readiness for blockchain integration.",
+      "metrics": [
+        {
+          "id": "digital-transformation",
+          "name": "Digital Transformation Maturity",
+          "description": "Organization's preparedness for digital and blockchain transition.",
+          "importance": "Mature digital practices ease blockchain integration.",
+          "thresholds": {
+            "T0": "Established digital initiatives",
+            "T1": "Limited digital capabilities"
+          },
+          "tools": [
+            "Internal Audits",
+            "Consultancy Reports"
+          ]
+        },
+        {
+          "id": "regulatory-compliance",
+          "name": "Regulatory Compliance Readiness",
+          "description": "Capability to meet blockchain regulatory standards.",
+          "importance": "Ensures compliance with blockchain regulations.",
+          "thresholds": {
+            "T0": "Proactive regulatory engagement",
+            "T1": "Reactive compliance stance"
+          },
+          "tools": [
+            "Compliance Reports",
+            "Legal Consultancies"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-integration",
+      "name": "Payment Product Integration Metrics",
+      "description": "Metrics assessing blockchain integration in payment products.",
+      "metrics": [
+        {
+          "id": "use-case-clarity",
+          "name": "Use Case Clarity",
+          "description": "Clear definition of blockchain payment use cases.",
+          "importance": "Ensures targeted execution and market acceptance.",
+          "thresholds": {
+            "T0": "Defined payment use cases",
+            "T1": "Undefined or vague use cases"
+          },
+          "tools": [
+            "Internal Strategic Documents",
+            "Product Roadmaps"
+          ]
+        },
+        {
+          "id": "cross-border-efficiency",
+          "name": "Cross-Border Payment Efficiency",
+          "description": "Efficiency improvements in cross-border transactions.",
+          "importance": "Key blockchain value proposition.",
+          "thresholds": {
+            "T0": ">30% efficiency gain",
+            "T1": "Minimal improvement"
+          },
+          "tools": [
+            "Pilot Programs",
+            "Benchmark Studies"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "financial-metrics",
+      "name": "Financial Metrics",
+      "description": "Economic sustainability of blockchain integration.",
+      "metrics": [
+        {
+          "id": "token-stablecoin-feasibility",
+          "name": "Token/Stablecoin Integration Feasibility",
+          "description": "Viability of integrating stablecoins or tokenized payments.",
+          "importance": "Ensures regulatory and economic alignment.",
+          "thresholds": {
+            "T0": "Clear regulatory path and feasibility study",
+            "T1": "Unclear feasibility"
+          },
+          "tools": [
+            "Economic Models",
+            "Regulatory Analyses"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strategic-alignment",
+      "name": "Strategic Alignment Metrics",
+      "description": "Alignment of blockchain initiatives with corporate strategy.",
+      "metrics": [
+        {
+          "id": "competitive-advantage",
+          "name": "Competitive Advantage & Market Positioning",
+          "description": "Positioning relative to industry blockchain adoption.",
+          "importance": "Market differentiation and leadership potential.",
+          "thresholds": {
+            "T0": "Early mover, clear differentiation",
+            "T1": "Late entrant, unclear differentiation"
+          },
+          "tools": [
+            "Market Research",
+            "Industry Reports"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecosystem-metrics",
+      "name": "Ecosystem & Network Metrics",
+      "description": "Engagement and integration with the blockchain community.",
+      "metrics": [
+        {
+          "id": "community-engagement",
+          "name": "Blockchain Community Engagement",
+          "description": "Active involvement in blockchain communities.",
+          "importance": "Enhances adoption and partnership opportunities.",
+          "thresholds": {
+            "T0": "Active in ≥2 blockchain communities",
+            "T1": "Minimal engagement"
+          },
+          "tools": [
+            "Social Media",
+            "Blockchain Forums"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "risk-metrics",
+      "name": "Risk Metrics",
+      "description": "Assessment of blockchain-specific risks for payments.",
+      "metrics": [
+        {
+          "id": "transaction-security",
+          "name": "Blockchain Transaction Security & Fraud Mitigation",
+          "description": "Effectiveness of blockchain security and fraud prevention measures.",
+          "importance": "Critical for transaction trust and security.",
+          "thresholds": {
+            "T0": "Proven security measures",
+            "T1": "Hypothetical or untested measures"
+          },
+          "tools": [
+            "Security Audits",
+            "Fraud Risk Assessments"
+          ]
+        }
+      ]
+    }
+  ]
+}
