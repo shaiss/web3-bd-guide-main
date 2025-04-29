@@ -1,69 +1,71 @@
-# Welcome to your Lovable project
+# Web3 Blockchain Project Evaluation Guide
 
-## Project info
+A modern web application for evaluating blockchain projects using customizable, multi-dimensional metrics. This tool helps users assess projects across foundational, product, financial, and strategic categories, supporting repeatable, transparent, and data-driven evaluations.
 
-**URL**: https://lovable.dev/projects/eef6af8d-23e4-432d-894d-8263397b18cd
+## Features
 
-## How can I edit this code?
+- **Project Evaluations:** Create, edit, and manage blockchain project evaluations.
+- **Customizable Templates:** Use or create evaluation templates with your own metrics and categories.
+- **Metric Scoring:** Score projects on a variety of metrics; see overall scores and completion rates.
+- **Tiering System:** Projects are automatically assigned a tier based on their evaluation score.
+- **Dashboard:** View recent evaluations, storage usage, and stats at a glance.
+- **Data Management:** Import/export evaluations and templates; manage local storage.
+- **Responsive UI:** Works well on desktop and mobile devices.
 
-There are several ways of editing your application.
+## Evaluation Framework
 
-**Use Lovable**
+Projects are evaluated across these main categories:
+- **Foundational Metrics:** Team, funding, and core capabilities.
+- **Product Metrics:** Product quality, adoption, and user engagement.
+- **Financial Metrics:** Tokenomics, treasury health, and sustainability.
+- **Strategic Alignment:** Market positioning and competitive advantages.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/eef6af8d-23e4-432d-894d-8263397b18cd) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (18+ recommended)
+- npm or bun
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+cd web3-bd-guide-main
+npm install
+# or, if you use bun:
+# bun install
 ```
 
-**Edit a file directly in GitHub**
+### Running the App
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm run dev
+# or
+bun run dev
+```
 
-**Use GitHub Codespaces**
+Visit [http://localhost:5173](http://localhost:5173) in your browser.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+- `src/pages/` — Main app pages (Dashboard, Projects, New Evaluation, etc.)
+- `src/components/` — UI and feature components (dashboard, evaluation, projects, settings, etc.)
+- `src/contexts/` — React contexts for state management (evaluations, templates, thresholds)
+- `src/data/` — Static data (e.g., default metrics)
+- `src/utils/` — Utility functions (scoring, storage, etc.)
+- `public/` — Static assets
 
-This project is built with .
+## Data Storage
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- All data is stored in the browser’s local storage by default.
+- You can import/export your data for backup or transfer.
 
-## How can I deploy this project?
+## Customization
 
-Simply open [Lovable](https://lovable.dev/projects/eef6af8d-23e4-432d-894d-8263397b18cd) and click on Share -> Publish.
+- Add or edit evaluation templates in the Templates section.
+- Adjust tier thresholds and appearance in Settings.
 
-## I want to use a custom domain - is that possible?
+## License
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+This project is licensed under the MIT License.
